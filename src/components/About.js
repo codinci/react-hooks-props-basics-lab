@@ -3,7 +3,7 @@ import Links from "./Links";
 
 function About(props) {
   if (!props.bio) {
-    <p></p>
+    return null;
   } else {
     return (
       <div id="about">
